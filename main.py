@@ -9,7 +9,7 @@ from shapes.text import Text
 turtle.tracer(False)
 
 def main():
-    circle = Circle(50, fill ="blue", stroke ="black")
+   circle = Circle(50, fill ="blue", stroke ="black")
     quadrilater = Quadrilater(20, 30, fill="green", stroke="blue", at=(100, 30))
     print(repr(circle))
     print(circle)
@@ -65,6 +65,7 @@ circle:
     canvas.draw(oquad)
     canvas.write(text, align="center", font = ("Arial", 60, "bold"))
     turtle.done()
+
     return os.EX_OK
 
 
